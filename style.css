@@ -1,10 +1,26 @@
-ol {
-    background: #f3fbff;
-    border: 2px skyblue dashed;
-  }
-  ol li {
-    color: #43acff;
-  }
+.uchilabel-box  {
+    position: relative;
+    margin: 2em 0;
+    padding: 25px 10px 7px;
+    border: solid 2px #FFC107;
+}
+.uchilabel-box-title {
+    position: absolute;
+    display: inline-block;
+    top: -2px;
+    left: -2px;
+    padding: 0 9px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 17px;
+    background: #FFC107;
+    color: #ffffff;
+    font-weight: bold;
+}
+.uchilabel-box p {
+    margin: 0; 
+    padding: 0;
+}
 h1{
     padding: 10px;
     border-bottom:6px solid #00E676;
