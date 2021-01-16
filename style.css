@@ -22,8 +22,39 @@
     padding: 0;
 }
 h1{
-    padding: 10px;
-    border-bottom:6px solid #00E676;
+    .kokuban-box {
+        position: relative;
+        margin: 2em auto;
+        padding: 3.2em 1em 1em;
+        width: 90%; /* ボックス幅 */
+        background-color: #006633; /* ボックス背景色 */
+        color: #fff; /* 文章色 */
+        border: 8px solid #b2771f; /* 枠線 */
+        border-radius: 3px; /* 角の丸み */
+        box-shadow: 0 0 5px #333, 0 0 5px #555 inset;
+       }
+       .kokuban-box::before,
+       .kokuban-box::after {
+        position: absolute;
+        content: '';
+        bottom: 0;
+       } 
+       .kokuban-box::before {
+        right: 10px;
+        border: solid 3px #fff; /*チョーク（白）*/
+        width: 20px; 
+        border-radius: 3px 2px 0 2px;
+       }
+       .kokuban-box::after {
+        right: 40px;
+        border: solid 3px #ffff6b; /*チョーク（黄色）*/
+        width: 15px; 
+        border-radius: 8px 5px 2px 5px;
+       }
+       .kokuban-box p {
+           margin: 0; 
+           padding: 0;
+       }
 }
 h2{
     padding: 10px;
