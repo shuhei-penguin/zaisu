@@ -98,13 +98,3 @@ h2{
     border-radius: 10px 0 20px 10px;
     background: #000;
   }
-
-  * {
-	float: none;
-	position: static;
-}
- 
-img {
-	max-width: 100%;
-	height: auto;
-}
