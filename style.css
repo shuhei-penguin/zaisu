@@ -1,15 +1,10 @@
 .uchilabel-box  {
-    /* position: relative; */
     margin: 2em 0;
     padding: 25px 10px 7px;
     border: solid 2px #FFC107;
-    /* top: -320px; */
 }
 .uchilabel-box-title {
-    /* position: absolute; */
     display: inline-block;
-    /* top: -2px; */
-    /* left: -2px; */
     padding: 0 9px;
     height: 25px;
     line-height: 25px;
@@ -49,7 +44,7 @@ h2{
     background: #E0E0E0;
     border-left:5px solid #00B0FF;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
-    /* top: -300px; */
+   
 }
 .uki-box {
     background-color: #fff;
@@ -57,8 +52,6 @@ h2{
     padding: 2em;
     position: relative;
     z-index: 1;
-    /* top: -340px; */
-    /* left: 520px; */
 }
 .uki-box::before,
 .uki-box::after {
@@ -103,10 +96,6 @@ h2{
     border-radius: 10px 0 20px 10px;
     background: #000;
   }
-
-
-  /* 山崎追加 画面のサイズに応じて横並びにする*/
-  /* PC版 */
   @media screen and (min-width: 980px) {
     .container {
         display: flex;
